@@ -1,4 +1,4 @@
-#Suyash 12/3/2025
+
 # Set the Working Directory
 setwd("~/GitHub/ExData_Plotting1")
 
