@@ -3,7 +3,7 @@
 setwd("~/GitHub/ExData_Plotting1")
 
 source("LoadData.R")
-png(filename = "Plot3.png", width = 480, height = 480, units = "px")
+png(filename = "Plot3.png" , width = 480 , height = 480 , units = "px")
 plot(Date_time, Sub_metering_1, type = "l", col = "black", xlab = "", ylab = "Energy sub metering", xaxt = "n")
 lines(Date_time, Sub_metering_1, col = "black")
 lines(Date_time, Sub_metering_2, col = "red")
